@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@font-face {
+  font-family: "Long Cang";
+  src: url("./fonts/LongCang-Regular.woff2") format('woff2'),
+       url("./fonts/LongCang-Regular.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Oppo Sans";
+  src: url("./fonts/OPPOSans-R.ttf") format("truetype");
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+#root {
+  overflow: auto;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 20px;
+}
+
+::selection {
+  background: #2ddab8;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000000;    /* #0c0f13 */
+  overflow: hidden;
+  font-family: 'Oppo Sans', sans-serif;
+  color: white;
+  font-size: 0.9rem;
+  /* cursor: url('https://raw.githubusercontent.com/chenglou/react-motion/master/demos/demo8-draggable-list/cursor.png') 39 39, auto; */
+}
+
+h1 {
+  font-family: "Long Cang", cursive;
+  font-size: 6rem;
+  font-weight: 100;
+}
+
+.zh {
+  font-family: 'Oppo Sans', sans-serif;
+  color: red;
+  font-size: 0.85rem;
+}
+
+.en {
+  font-family: 'DM Sans', sans-serif;
+  color: #DCCEC5;
+  font-size: 0.75rem;
+}
+
+/* .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #272730c0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay > div {
+  position: relative;
+  background: none;
+  border: 2.5px solid white;
+  color: "white";
+  padding: 0.6rem 3rem;
+  border-radius: 2.75rem;
+  opacity: 0.9;
+  font-family: "Oppo Sans", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.overlay > div:hover {
+  background: white;
+  color: #000000;
+}
+
+.overlay > div span {
+  padding: 0 0.5em;
+}
+
+.smash {
+  height: 20vh;
+  width: 20vw;
+  position: absolute;
+  top: 46%;
+  left: 40%;
+  text-align: center;
+  color: white;
+  transition: 0.5s;
+}
+
+.smash p {
+  font-size: 2rem;
+  color: white;
+  font-family: "Long Cang", cursive;
+  font-weight: 200;
+}
+
+.smash button {
+  height: 50px;
+  width: 50px;
+  border: 1px solid white;
+  opacity: 0.7;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+.smash button:hover {
+  cursor: crosshair;
+  background-color: #000000;
+  opacity: 0.3;
+} */
