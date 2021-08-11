@@ -50,7 +50,7 @@ function Interface() {
         <>
         {(stage==="landing") && (
             <>
-            <Text position={[0, 2, 0]} color={'#DCCEC5'} fontSize={1.85} font="/LongCang-Regular.woff">一茶一宇宙 | Tea Cosmos</Text>
+            <Text position={[0, 2, 0]} color={'#DCCEC5'} fontSize={1.85} font="/LongCang-Regular.woff">点茶 | 心斋 | Tea Cosmos</Text>
             <mesh position={[1.66, -2, -0.1]} scale={[0.5, 0.4, 1]} rotation={[0, 0, Math.PI / 2]}>
                 <shapeBufferGeometry attach="geometry" args={[trackShape, 12]} />
                 <meshPhongMaterial color={hovered ? '#DCCEC5' : "#0C0F12"} transparent={true} opacity={0.6}  />  {/* specular={specularColor} shininess={specularShininess} */}
